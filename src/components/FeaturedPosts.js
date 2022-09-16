@@ -1,11 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import Blog from './Blog'
 
 const FeaturedPosts = () => {
   return (
-    <Title>
-      Featured Posts
-    </Title>
+    <>
+      <Title>
+        Featured Posts
+      </Title>
+      <Blog />
+    </>
   )
 }
 

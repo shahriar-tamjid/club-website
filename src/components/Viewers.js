@@ -4,19 +4,29 @@ const Viewers = (props) => {
   return (
     <Container>
       <Wrap>
-        <img src="/images/about.png" alt="" />
+        <a href="/about">
+          <img src="/images/about.png" alt="" />
+        </a>
       </Wrap>
       <Wrap>
-        <img src="/images/news.png" alt="" />
+        <a href="/news">
+          <img src="/images/news.png" alt="" />
+        </a>
       </Wrap>
       <Wrap>
-        <img src="/images/events.png" alt="" />
+        <a href="/events">
+          <img src="/images/events.png" alt="" />
+        </a>
       </Wrap>
       <Wrap>
-        <img src="/images/contact.png" alt="" />
+        <a href="/contact">
+          <img src="/images/contact.png" alt="" />
+        </a>
       </Wrap>
       <Wrap>
-        <img src="/images/executive_committee.png" alt="" />
+        <a href="/executive_committee">
+          <img src="/images/executive_committee.png" alt="" />
+        </a>
       </Wrap>
     </Container>
   );

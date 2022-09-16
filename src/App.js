@@ -7,6 +7,7 @@ import News from "./pages/News";
 import Events from "./pages/Events";
 import ExecutiveCommittee from "./pages/ExecutiveCommittee";
 import Contact from "./pages/Contact";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/events" element={<Events />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/executive-committee" element={<ExecutiveCommittee />} />
+          <Route exact path="/blog/:id" element={<Blog />} />
         </Routes>
       </Router>
     </>
