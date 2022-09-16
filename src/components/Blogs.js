@@ -1,20 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
-import Blog from './Blog'
+import BlogList from './BlogList/BlogList'
+import { blogList } from '../config/data'
 
-const FeaturedPosts = () => {
+const Blogs = () => {
   return (
     <>
       <Title>
-        Featured Posts
+        Welcome to the NDUBCC!
       </Title>
-      <Blog />
+      <BlogList blogs={blogList} />
     </>
   )
 }
 
 const Title = styled.div`
   margin-top: 20px;
+  margin-bottom: 30px;
   margin-left: 30px;
   font-size: 30px;
   font-family: Avenir-Roman, sans-serif;
@@ -30,4 +32,4 @@ const Title = styled.div`
   }
 `;
 
-export default FeaturedPosts
+export default Blogs

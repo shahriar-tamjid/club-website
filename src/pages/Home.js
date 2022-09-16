@@ -3,7 +3,7 @@ import "./Home.css";
 import styled from "styled-components";
 import ImgSlider from "../components/ImgSlider";
 import Viewers from "../components/Viewers";
-import FeaturedPosts from "../components/FeaturedPosts";
+import Blogs from "../components/Blogs";
 // import Viewers from "./pages/Viewers";
 // import Recommends from "./pages/Recommends";
 // import NewArrivals from "./pages/NewArrivals";
@@ -16,7 +16,7 @@ function Home() {
     <Container>
       <ImgSlider />
       <Viewers />
-      <FeaturedPosts />
+      <Blogs />
     </Container>
   );
 }
